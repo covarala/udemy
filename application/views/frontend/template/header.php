@@ -10,44 +10,6 @@
 		<div class="logo">
 			<a href="<?php echo base_url('home') ?>"><img src="<?php echo base_url();?>assets/frontend/web/images/logo.png" alt=""/></a>
 		</div>
-		 <div class="log_reg">
-			 <?php if ($this->session->userdata('logged_in')){ ?>
-
-				 <ul>
- 					<li>
-						<a href="<?php echo base_url('home/perfil') ?>">
-							<?php if (!$this->session->userdata('logged_in')): ?>
-
-								<img src="<?php echo base_url();?>assets/frontend/web/images/usericon.png" align="left">
-							<?php endif; ?>
-
-  						<?php echo $nomeUsuario; ?>
-					 	</a>
-					</li>
- 					<div class="header_right">
- 						<ul>
- 							<li><a href="#"><i  class="cart"></i><span>0</span></a></li>
- 						</ul>
- 					</div>
- 					<div class="clear"></div>
- 				</ul>
-
-
-			<?php } else { ?>
-				<ul>
-					<li><a href="<?php echo base_url('home/login') ?>"title="Entre ou cadastre-se"> <img src="<?php echo base_url();?>assets/frontend/web/images/usericon.png" align="left">
-                                    Oi, tudo bem? :)<br>Entre ou cadastre-se
-            </a></li>
-					<div class="header_right">
-						<ul>
-							<li><a href="#"><i  class="cart"></i><span>0</span></a></li>
-						</ul>
-					</div>
-					<div class="clear"></div>
-				</ul>
-
-			<?php } ?>
-		</div>
 		<div class="web_search">
 		 	<form>
 				<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" placeholder="O que você procura?">
