@@ -233,8 +233,8 @@ h4.style{
 .web_search{
 	position: relative;
 	float:right;
-	width: 28.33333%;
-	padding: 12px 10px;
+	width: 50%;
+	padding: 20px 5px;
 }
 /*---*/
 .web_search form{
@@ -244,7 +244,7 @@ h4.style{
 	transition: all 0.3s ease-in-out;
 }
 .web_search form:active,.web_search form:hover{
-	background: #ffffff;
+	background: #242424;
 	-webkit-transition-property: width;
 	-moz-transition-property: width;
 	-ms-transition-property: width;
@@ -265,17 +265,17 @@ h4.style{
 	color: #333333;
 }
 .web_search:hover input[type="submit"]{
-	background: url(../images/search-icon.png) no-repeat 0px 4px;
+	background: url(../images/search-icon.png) no-repeat 17px 10px;
 }
 .web_search input[type="submit"]{
-	background: url(../images/search-icon.png) no-repeat 0px 4px;
+	background: url(../images/search-icon.png) no-repeat 17px 10px;
 	border: #ffffff;
-	width: 25px;
-	height: 25px;
+	width: 40px;
+	height: 35px;
 	cursor: pointer;
 }
 .web_search input[type="submit"]:hover{
-	background: url(../images/search-icon.png) no-repeat 0px 4px;
+	background: url(../images/search-icon.png) no-repeat 17px 10px;
 }
 /* start header_btm */
 .header_btm{
@@ -1870,7 +1870,7 @@ span.color7{
 		width:95%;
 	}
 	.web_search {
-		width: 26.33333%;
+		width: 22.7%;
 	}
 	ul.news li .desc {
 		width: 78.33333%;
